@@ -38,4 +38,6 @@ docs: docs/.nojekyll
 docs/%.html: src/%.md template.html5 Makefile tools/build.sh
 	tools/build.sh "$<" "$@"
 
-
+.PHONY: upload
+upload: 
+	rsync -avvP docs/ cloud:/home/user/site

@@ -16,4 +16,8 @@ find most of my music released on the platforms listed below.
 Most of my music is accessible (begrudgingly) via
 [*Spotify*](https://open.spotify.com/artist/2stp6XCHbjsyVmOYGyYBuz?si=i3yoQQjXTY-YWtr2vZ96Aw)
 
+You can also find me on Apple Music, Tidal, and other major streaming platforms.
+
+A small body of my work is available on [Bandcamp](https://zaneschaffer.bandcamp.com)
+
 
