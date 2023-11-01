@@ -6,7 +6,7 @@ header-includes:
 ---
 
 # [Bloom](https://bloom.znschaffer.com)
-![Bloom App](/img/bloom.jpeg)
+![Bloom App](/img/bloom.webp)
 
 An interactive coffee brewing timer, brew log, and recipe stash.
 
@@ -16,7 +16,7 @@ NextJs
 
 # [Wax](https://github.com/znschaffer/wax.git)
 
-![Wax](/img/wax.jpeg)
+![Wax](/img/wax.webp)
 
 A terminal based graphical music player, akin to CMUS. 
 
@@ -26,7 +26,7 @@ Written in C using [TagLib](https://taglib.org/) and [ncurses](https://invisible
 
 # [Jenga](https://github.com/znschaffer/jenga)
 
- ![Jenga Logo](/img/jenga.jpeg)
+ ![Jenga Logo](/img/jenga.webp)
 
 Static site builder optimized for single page stacked posts.
 

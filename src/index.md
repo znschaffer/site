@@ -15,14 +15,13 @@ College](https://northseattle.edu).
 - I was born in Seattle, grew up in Bellevue, and have [lived in many
 places](/travels.html)!
 
-- My partner-in-crime, [Xinrui Chen](https://xinrui.work) is an extremely
+- I enjoy working on [projects](/projects.html) and learning new skills.
+
+- My partner, [Xinrui](https://xinrui.work), is an extremely
   talented and lovely individual
 
 - I have been writing and producing music for most of my adult life. You can
 learn more about my musical endeavours [here](/music.html).
 
-- My interests are in Digital Signal Processing, synthesizer design, analog
-solutions, and low-level languages.
-
-## Posts
+## Recent Posts
 [Return To Academia](/posts/return_to_academia.html)

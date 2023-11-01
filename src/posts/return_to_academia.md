@@ -20,5 +20,5 @@ bucket. School subjects that included few large projects with rigid due dates
 where the classroom must bring their projects in for peer-review. 
 
 # Present
-![North Seattle College](/img/north_seattle_college.jpeg)
+![North Seattle College](/img/north_seattle_college.webp)
 
