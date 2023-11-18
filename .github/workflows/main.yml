@@ -16,9 +16,6 @@ jobs:
       uses: tonynv/asciidoctor-action@master
       with:
           program: "asciidoctor -a nofooter -a imagesdir='./img' -a stylesheet='adoc-riak.css' -D out ./src/*.adoc"
-    - name: Copy over images to output folder
-      run: |
-        cp -r ./img ./out/
     - name: Deploy docs to ghpages
       uses: peaceiris/actions-gh-pages@v3
       with:
