@@ -1,4 +1,6 @@
+:imagesdir: ../out/img
 = Projects
+
 
 == https://bloom.znschaffer.com[Bloom]
 image::bloom.webp[Bloom App]

@@ -1,8 +1,11 @@
+:imagesdir: ../out/img
+
 # Music and Sound
 My Things and Where They Come From.
 
+
 image::trombone.webp[]
-I grew up playing _jazz trombone_ throughout middle and high school, eventually
+I grew up playing *jazz trombone* throughout middle and high school, eventually
 catching the electronic music bug and finding myself working in FL Studio. After
 realizing what a mistake of software that is, I moved myself over to Ableton. I 
 would describe my musical influences as jazzy, noisy, bleepy, and bloopy. I've made

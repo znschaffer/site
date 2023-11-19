@@ -1,3 +1,4 @@
+:imagesdir: ../out/img
 = Travels
 
 I've been lucky enough to travel to many large cities in America, and a few in Europe.
