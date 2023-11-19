@@ -1,5 +1,5 @@
 :description: This site contains notes, information, blog posts, and other tidbits about my life.
-
+:imagesdir: ../out/img
 = Zane Schaffer
 
 This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
@@ -34,3 +34,5 @@ A lot of my current time is taken up by the _pursuit of education_ I am subjecti
 I've gone self-taught for most everything in computer science but enough is enough! Through this 
 process, I have discovered an odd, but intriguing appreciation for mathematics I did not possess before.
 Luckily, audio programming and it's related domains expect you to be fascinated with mathematics.
+
+image::cleo.webp[]
