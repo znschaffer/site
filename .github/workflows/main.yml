@@ -8,6 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.5.1
+        with:
+          source: src/custom.scss
+          destination: src/custom.css
+          
       - name: convert markdown to html
         uses: docker://pandoc/core:latest
         with:
