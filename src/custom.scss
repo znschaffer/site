@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
-$color-blossom: #007559;
-$color-fade: #006994;
+$color-blossom: #3b22ea;
+$color-fade: #DA4453;
 
 $color-bg: #ffffff;
 $color-bg-alt: #f7f7f7;
 
-$color-text: #222222;
+$color-text: rgba(0, 0, 0, 0.85);
 $font-size-base: 1.8rem;
-$font-family-base: "Work Sans";
-$font-family-heading: "Work Sans";
+$font-family-base: "Overpass, sans-serif";
+$font-family-heading: "Overpass, sans-serif;";
 
 @import "main";
