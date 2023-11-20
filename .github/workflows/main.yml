@@ -12,11 +12,7 @@ jobs:
         uses: docker://pandoc/latex:2.9
         with:
           args: -c "mkdir out; cd src;find src -iname '*.md' -type f -exec sh -c 'pandoc ${0} -o ../out/${0%.md}.html' {} \;"          
-
-      - name: check file system
-        run: |
-         "ls ."
-         
+      - run: tree
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
