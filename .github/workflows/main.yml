@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: convert markdown to html
-        uses: docker://pandoc/latex:2.9
+        uses: docker://pandoc/core:2.9
         with:
           entrypoint: /bin/sh
           args: -c "mkdir out; cd src;find src -iname '*.md' -type f -exec sh -c 'pandoc ${0} -o ../out/${0%.md}.html' {} \;"          
