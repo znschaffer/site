@@ -7,19 +7,21 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-
+      - name: setup output dir and copy images
+        run: mkdir out; cp -r src/img out/
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.5.1
         with:
           source: src/custom.scss
-          destination: src/custom.css
+          destination: out/custom.css
           
       - name: convert markdown to html
         uses: docker://pandoc/core:edge
         with:
           entrypoint: /bin/sh
-          args: -c "mkdir out; cd src;find . -iname '*.md' -type f -exec sh -c 'pandoc -f markdown -t html5 -c ./custom.css -s --embed-resources=true ${0} -o ../out/${0%.md}.html' {} \;"          
+          args: -c "cd src; find . -iname '*.md' -type f -exec sh -c 'pandoc -f markdown -t html5 -c ./custom.css -s --embed-resources=true ${0} -o ../out/${0%.md}.html' {} \;"          
       - run: tree
+      
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
