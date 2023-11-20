@@ -15,10 +15,10 @@ jobs:
           destination: src/custom.css
           
       - name: convert markdown to html
-        uses: docker://pandoc/core:latest
+        uses: docker://pandoc/latext:3.19
         with:
           entrypoint: /bin/sh
-          args: -c "mkdir out; cd src;find . -iname '*.md' -type f -exec sh -c 'pandoc -f markdown -t html5 -c ./custom.css -s --embed-resources ${0} -o ../out/${0%.md}.html' {} \;"          
+          args: -c "mkdir out; cd src;find . -iname '*.md' -type f -exec sh -c 'pandoc -f markdown -t html5 -c ./custom.css -s --embed-resources=true ${0} -o ../out/${0%.md}.html' {} \;"          
       - run: tree
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
