@@ -1,9 +1,10 @@
-:imagesdir: ../out/img
-= Travels
+---
+title: "Travels"
+---
 
 I've been lucky enough to travel to many large cities in America, and a few in Europe.
 
-NOTE: This seems extremely self-indulgent to write, but I'd like to catalog my life for once.
+> This seems extremely self-indulgent to write, but I'd like to catalog my life for once.
 
 Here is my current *City Ranking*:
 

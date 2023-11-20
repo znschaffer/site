@@ -1,25 +1,27 @@
-:imagesdir: ../out/img
-= Projects
+---
+title: "Projects"
+---
 
 
-== https://bloom.znschaffer.com[Bloom]
-image::bloom.webp[Bloom App]
+
+## [Bloom](https://bloom.znschaffer.com)
+![bloom screenshot](src/img/bloom.webp)
 
 An interactive coffee brewing timer, brew log, and recipe stash.
 
 
-== https://github.com/znschaffer/wax.git[Wax]
+## [Wax](https://github.com/znschaffer/wax.git)
 
-image::wax.webp[Wax]
+![wax screenshot](src/img/wax.webp)
 
 A terminal based graphical music player, akin to CMUS. 
 
-Written in C using https://taglib.org/[TagLib] and https://invisible-island.net/ncurses/[ncurses]
+Written in C using [TagLib](https://taglib.org) and [ncurses](https://invisible-island.net/ncurses)
 
 
-== https://github.com/znschaffer/jenga[Jenga]
+## [Jenga](https://github.com/znschaffer/jenga)
 
-image::jenga.webp[Jenga Logo, 150, float="right" ]
+![jenga screenshot](src/img/jenga.webp)
 
 Jenga is a no frills, fast-enough static site builder written in Go. It is
 optimized for single-page infinite scrolling blogs. Jenga takes a source
