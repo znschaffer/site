@@ -10,8 +10,6 @@ title: "Zane Schaffer"
 
 - I have been writing and producing and living off of my music for most of my adult life. You can learn more about my musical endeavours [here](./music).
 
-- I am a twenty-seven years old
-
 - I was born in Seattle, grew up in Bellevue, and have [lived in many places](./travels)!
 
 - I am currently a computer science student at [North Seattle College](https://northseattle.edu)
