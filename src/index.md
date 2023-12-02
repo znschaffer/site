@@ -2,6 +2,7 @@
 title: "Zane Schaffer"
 ---
 
+<main>
 > This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
 > via [email](mailto:znschaffer@gmail.com) or any social media platform you see fit.
 
@@ -32,3 +33,5 @@ A lot of my current time is taken up by the _pursuit of education_ I am subjecti
 I've gone self-taught for most everything in computer science but enough is enough! Through this
 process, I have discovered an odd, but intriguing appreciation for mathematics I did not possess before.
 Luckily, audio programming and it's related domains expect you to be fascinated with mathematics.
+
+</main>
