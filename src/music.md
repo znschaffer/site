@@ -20,8 +20,10 @@ realizing what a mistake of software that is, I moved myself over to Ableton. I
 would describe my musical influences as jazzy, noisy, bleepy, and bloopy. I've made
 things ranging from soft soothing _lo-fi hip-hop_ to repugnant noisey wall-of-sound.
 
+-------
+
 Currently, I'm fond of odd analog sound machines - instrument creators currently inspiring
-me include: Lorre Mill, Ciat Lonbarde, 4U Modular.
+me include: *Lorre Mill*, *Ciat Lonbarde*, and the general *4U Modular* scene.
 
 
 ## Where To Listen
