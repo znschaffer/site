@@ -1,5 +1,7 @@
 ---
 title: "Zane Schaffer"
+subtitle: "A Site About Me"
+toc: true
 ---
 
 <main>
