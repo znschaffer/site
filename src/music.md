@@ -3,7 +3,7 @@ title: "Music and Sound"
 subtitle: "My Things and Where They Come From."
 include-before: |
     <nav id="sitenav">
-    <div class"sitenav">
+    <div class="sitenav">
     <span class="navlink">
     <a href="/">Home</a>
     </span>

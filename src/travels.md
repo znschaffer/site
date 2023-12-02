@@ -2,7 +2,7 @@
 title: "Travels"
 include-before: |
     <nav id="sitenav">
-    <div class"sitenav">
+    <div class="sitenav">
     <span class="navlink">
     <a href="/">Home</a>
     </span>
