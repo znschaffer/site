@@ -1,5 +1,13 @@
 ---
 title: "Projects"
+include-before: |
+    <nav id="sitenav">
+    <div class"sitenav">
+    <span class="navlink">
+    <a href="/">Home</a>
+    </span>
+    </div>
+    </nav>
 ---
 
 ## [Bloom](https://bloom.znschaffer.com)
@@ -13,7 +21,7 @@ An interactive coffee brewing timer, brew log, and recipe stash.
 
 
 ![wax screenshot](img/wax.webp)
-A terminal based graphical music player, akin to CMUS. 
+A terminal based graphical music player, akin to CMUS.
 
 Written in C using [TagLib](https://taglib.org) and [ncurses](https://invisible-island.net/ncurses)
 
@@ -27,5 +35,4 @@ optimized for single-page infinite scrolling blogs. Jenga takes a source
 directory of markdown files and an HTML template and spits outs a full HTML
 blog.
 
-Written in Go 
-
+Written in Go
