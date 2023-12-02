@@ -2,6 +2,8 @@
 title: "Zane Schaffer"
 subtitle: "A Site About Me"
 toc: true
+include-before: |
+    <a href="/">Home</a>
 ---
 
 > This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
