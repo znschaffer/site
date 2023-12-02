@@ -4,7 +4,6 @@ subtitle: "A Site About Me"
 toc: true
 ---
 
-<main>
 > This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
 > via [email](mailto:znschaffer@gmail.com) or any social media platform you see fit.
 
@@ -23,7 +22,7 @@ toc: true
 
 ## Whats Going On Now?
 
-Currently, I live on Capitol Hill, Seattle, Washington with Xinrui and our cat
+Currently, I live on[^in-on-debate] Capitol Hill, Seattle, Washington with Xinrui and our cat
 Cleo. I spend a lot of time learning about programming language design, studying
 higher level math and calculus, researching self-hosted projects, and making noises
 on my synths.
@@ -36,4 +35,6 @@ I've gone self-taught for most everything in computer science but enough is enou
 process, I have discovered an odd, but intriguing appreciation for mathematics I did not possess before.
 Luckily, audio programming and it's related domains expect you to be fascinated with mathematics.
 
-</main>
+[^in-on-debate]: There seems to be a split between those who consider it to be
+    living 'on' or 'in' Capitol Hill. I prefer on, as to acknowledge the greater
+    calf strength I now possess.
