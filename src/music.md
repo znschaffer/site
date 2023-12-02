@@ -1,5 +1,6 @@
 ---
 title: "Music and Sound"
+subtitle: "My Things and Where They Come From."
 include-before: |
     <nav id="sitenav">
     <div class"sitenav">
@@ -10,7 +11,6 @@ include-before: |
     </nav>
 ---
 
-~My Things and Where They Come From.~
 
 
 ![Me playing the trombone](img/trombone.webp)
