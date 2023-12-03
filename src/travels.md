@@ -6,6 +6,15 @@ include-before: |
     <span class="navlink">
     <a href="/">Home</a>
     </span>
+    <span class="navlink">
+    <a href="/music">Music</a>
+    </span>
+    <span class="navlink">
+    <a href="/projects">Music</a>
+    </span>
+    <span class="navlink">
+    <a href="/travels">Travels</a>
+    </span>
     </div>
     </nav>
 ---

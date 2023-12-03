@@ -1,7 +1,23 @@
 ---
 title: "Zane Schaffer"
 subtitle: "A Site About Me"
-toc: true
+include-before: |
+    <nav id="sitenav">
+    <div class="sitenav">
+    <span class="navlink">
+    <a href="/">Home</a>
+    </span>
+    <span class="navlink">
+    <a href="/music">Music</a>
+    </span>
+    <span class="navlink">
+    <a href="/projects">Music</a>
+    </span>
+    <span class="navlink">
+    <a href="/travels">Travels</a>
+    </span>
+    </div>
+    </nav>
 ---
 
 > This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
