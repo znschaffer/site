@@ -1,23 +1,6 @@
 ---
 title: "Music and Sound"
 subtitle: "My Things and Where They Come From."
-include-before: |
-    <nav id="sitenav">
-    <div class="sitenav">
-    <span class="navlink">
-    <a href="/">Home</a>
-    </span>
-    <span class="navlink">
-    <a href="/music">Music</a>
-    </span>
-    <span class="navlink">
-    <a href="/projects">Music</a>
-    </span>
-    <span class="navlink">
-    <a href="/travels">Travels</a>
-    </span>
-    </div>
-    </nav>
 ---
 
 

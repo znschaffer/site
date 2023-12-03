@@ -1,22 +1,6 @@
 ---
 title: "Travels"
-include-before: |
-    <nav id="sitenav">
-    <div class="sitenav">
-    <span class="navlink">
-    <a href="/">Home</a>
-    </span>
-    <span class="navlink">
-    <a href="/music">Music</a>
-    </span>
-    <span class="navlink">
-    <a href="/projects">Music</a>
-    </span>
-    <span class="navlink">
-    <a href="/travels">Travels</a>
-    </span>
-    </div>
-    </nav>
+subtitle: "The Places I've Been"
 ---
 
 I've been lucky enough to travel to many large cities in America, and a few in Europe.
