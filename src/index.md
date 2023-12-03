@@ -10,6 +10,8 @@ include-before: |
     <span class="navlink">
     <a href="/music">Music</a>
     </span>
+    </div>
+    <div class="sitenav">
     <span class="navlink">
     <a href="/projects">Music</a>
     </span>
