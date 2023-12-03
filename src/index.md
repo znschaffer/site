@@ -21,7 +21,7 @@ subtitle: "A Site About Me"
 
 ## Whats Going On Now?
 
-Currently, I live on[^in-on-debate] Capitol Hill, Seattle, Washington with Xinrui and our cat
+Currently, I live on Capitol Hill, Seattle, Washington[^in-on-debate] with Xinrui and our cat
 Cleo. I spend a lot of time learning about programming language design, studying
 higher level math and calculus, researching self-hosted projects, and making noises
 on my synths.
