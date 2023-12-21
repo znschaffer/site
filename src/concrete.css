@@ -1,5 +1,12 @@
-div.sitenav { display: flex; flex-direction: row; flex-wrap: wrap; }
-span.navlink { flex: 1; }
+div.sitenav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+span.navlink {
+  flex: 1;
+}
 html {
   color: #1a1a1a;
   background-color: #fdfdfd;
@@ -15,6 +22,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
+  font-family: "Spectral";
 }
 @media (max-width: 600px) {
   body {
@@ -34,11 +42,15 @@ body {
     color: black;
     font-size: 12pt;
   }
-  p, h2, h3 {
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
-  h2, h3, h4 {
+  h2,
+  h3,
+  h4 {
     page-break-after: avoid;
   }
 }
@@ -54,21 +66,29 @@ a:visited {
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1.4em;
 }
-h5, h6 {
+h5,
+h6 {
   font-size: 1em;
   font-style: italic;
 }
 h6 {
   font-weight: normal;
 }
-ol, ul {
+ol,
+ul {
   padding-left: 1.7em;
   margin-top: 1em;
 }
-li > ol, li > ul {
+li > ol,
+li > ul {
   margin-top: 0;
 }
 blockquote {
@@ -78,7 +98,7 @@ blockquote {
   color: #606060;
 }
 code {
-  font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+  font-family: Menlo, Monaco, "Lucida Console", Consolas, monospace;
   font-size: 85%;
   margin: 0;
   hyphens: manual;
@@ -141,15 +161,34 @@ header {
 #TOC a:not(:hover) {
   text-decoration: none;
 }
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
+code {
+  white-space: pre-wrap;
+}
+span.smallcaps {
+  font-variant: small-caps;
+}
+div.columns {
+  display: flex;
+  gap: min(4vw, 1.5em);
+}
+div.column {
+  flex: auto;
+  overflow-x: auto;
+}
+div.hanging-indent {
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}
+ul.task-list {
+  list-style: none;
+}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+.display.math {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+}
