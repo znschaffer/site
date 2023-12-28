@@ -6,6 +6,9 @@ subtitle: "My Things and Where They Come From."
 
 
 ![Me playing the trombone](img/trombone.webp)
+
+
+
 I grew up playing *jazz trombone* throughout middle and high school, eventually
 catching the electronic music bug and finding myself working in FL Studio. After
 realizing what a mistake of software that is, I moved myself over to Ableton. I
