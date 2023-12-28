@@ -4,10 +4,10 @@ subtitle: "A Site About Me"
 ---
 
 > This site contains notes, information, blog posts, and other tidbits about my life. You may contact me
-> via [email](mailto:znschaffer@gmail.com) or any social media platform you see fit.
+> via [email](mailto:znschaffer@gmail.com) or any social media platform you see fit. You may also view my CV [here](https://store.znschaffer.com/docs/cv.pdf)
 
 
-View my CV [here](https://store.znschaffer.com/docs/cv.pdf)
+
 
 
 ## Life Facts!
