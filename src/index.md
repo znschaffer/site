@@ -7,6 +7,9 @@ subtitle: "A Site About Me"
 > via [email](mailto:znschaffer@gmail.com) or any social media platform you see fit.
 
 
+View my CV [here](https://store.znschaffer.com/docs/cv.pdf)
+
+
 ## Life Facts!
 
 - I have been writing and producing and living off of my music for most of my adult life. You can learn more about my musical endeavours [here](./music).
