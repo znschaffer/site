@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;400;500&display=swap');
 
 div.sitenav {
   display: flex;
@@ -23,7 +23,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Jost";
+  font-family: "Rokkitt";
 }
 @media (max-width: 600px) {
   body {
