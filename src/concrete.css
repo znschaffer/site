@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;400;500&display=swap');
-
 div.sitenav {
   display: flex;
   flex-direction: row;
@@ -23,7 +21,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Rokkitt";
+  font-family: "Optima";
 }
 @media (max-width: 600px) {
   body {
