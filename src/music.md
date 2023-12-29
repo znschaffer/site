@@ -25,6 +25,9 @@ me include: *Lorre Mill*, *Ciat Lonbarde*, and the general *4U Modular* scene.
 
 > I'm not as active in making and releasing music these days. You'll find most of my music released on the platforms listed below.
 
+There's an interactive explorer of audio experiments
+[here](https://sounds.znschaffer.com).
+
 Most of my music is accessible (begrudgingly) via [Spotify](https://open.spotify.com/artist/2stp6XCHbjsyVmOYGyYBuz?si=i3yoQQjXTY-YWtr2vZ96Aw).
 
 You can also find me on Apple Music, Tidal, and other major streaming platforms.
