@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: setup output dir and copy images
-        run: mkdir out; cp -r src/img out/; cp src/*.css out/; cp src/fonts out/;
+        run: mkdir out; cp -r src/img out/; cp src/*.css out/; cp -r src/fonts out/;
       - name: convert markdown to html
         uses: docker://pandoc/core:edge
         with:
