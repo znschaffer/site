@@ -1,5 +1,3 @@
-@import "./fonts/font.css";
-
 div.sitenav {
   display: flex;
   flex-direction: row;
@@ -23,7 +21,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Berkeley Mono", "Optima";
+  font-family: "Optima";
 }
 @media (max-width: 600px) {
   body {
