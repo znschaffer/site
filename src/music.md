@@ -3,23 +3,18 @@ title: "Music and Sound"
 subtitle: "My Things and Where They Come From."
 ---
 
-
-
 ![Me playing the trombone](img/trombone.webp)
 
-
-
-I grew up playing *jazz trombone* throughout middle and high school, eventually
+I grew up playing _jazz trombone_ throughout middle and high school, eventually
 catching the electronic music bug and finding myself working in FL Studio. After
 realizing what a mistake of software that is, I moved myself over to Ableton. I
 would describe my musical influences as jazzy, noisy, bleepy, and bloopy. I've made
 things ranging from soft soothing _lo-fi hip-hop_ to repugnant noisey wall-of-sound.
 
--------
+---
 
 Currently, I'm fond of odd analog sound machines - instrument creators currently inspiring
-me include: *Lorre Mill*, *Ciat Lonbarde*, and the general *4U Modular* scene.
-
+me include: _Lorre Mill_, _Ciat Lonbarde_, and the general _4U Modular_ scene.
 
 ## Where To Listen
 
@@ -28,7 +23,7 @@ me include: *Lorre Mill*, *Ciat Lonbarde*, and the general *4U Modular* scene.
 There's an interactive explorer of audio experiments
 [here](https://sounds.znschaffer.com).
 
-Most of my music is accessible (begrudgingly) via [Spotify](https://open.spotify.com/artist/2stp6XCHbjsyVmOYGyYBuz?si=i3yoQQjXTY-YWtr2vZ96Aw).
+Most of my music is accessible (begrudgingly) via [Spotify](https://open.spotify.com/artist/1stp6XCHbjsyVmOYGyYBuz?si=36VIXAnjTwa4rz_CJov7_Q).
 
 You can also find me on Apple Music, Tidal, and other major streaming platforms.
 
