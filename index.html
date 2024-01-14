@@ -1,37 +1,409 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Zane Schaffer</title>
   <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="concrete.css" />
-  <meta
-    name="description"
-    content="Zane Schaffer's Lovely Indescribable Information and Tasty Site"
-  />
-  <link
-    rel="icon"
-    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>↔</text></svg>"
-  />
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <style type="text/css">
+
+
+html {
+line-height: 1.15; 
+-webkit-text-size-adjust: 100%; 
+}
+
+
+body {
+margin: 0;
+}
+
+main {
+display: block;
+}
+
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+
+
+hr {
+box-sizing: content-box; 
+height: 0; 
+overflow: visible; 
+}
+
+pre {
+font-family: monospace, monospace; 
+font-size: 1em; 
+}
+
+
+a {
+background-color: transparent;
+}
+
+abbr[title] {
+border-bottom: none; 
+text-decoration: underline; 
+text-decoration: underline dotted; 
+}
+
+b,
+strong {
+font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+font-family: monospace, monospace; 
+font-size: 1em; 
+}
+
+small {
+font-size: 80%;
+}
+
+sub,
+sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+sub {
+bottom: -0.25em;
+}
+sup {
+top: -0.5em;
+}
+
+
+img {
+border-style: none;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+font-family: inherit; 
+font-size: 100%; 
+line-height: 1.15; 
+margin: 0; 
+}
+
+button,
+input { 
+overflow: visible;
+}
+
+button,
+select { 
+text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+border-style: none;
+padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+outline: 1px dotted ButtonText;
+}
+
+fieldset {
+padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+box-sizing: border-box; 
+color: inherit; 
+display: table; 
+max-width: 100%; 
+padding: 0; 
+white-space: normal; 
+}
+
+progress {
+vertical-align: baseline;
+}
+
+textarea {
+overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+box-sizing: border-box; 
+padding: 0; 
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+height: auto;
+}
+
+[type="search"] {
+-webkit-appearance: textfield; 
+outline-offset: -2px; 
+}
+
+[type="search"]::-webkit-search-decoration {
+-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+-webkit-appearance: button; 
+font: inherit; 
+}
+
+
+details {
+display: block;
+}
+
+summary {
+display: list-item;
+}
+
+
+template {
+display: none;
+}
+
+[hidden] {
+display: none;
+}
+</style>
+  <style type="text/css">div.sitenav {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+span.navlink {
+flex: 1;
+}
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+font-family: "Optima";
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p,
+h2,
+h3 {
+orphans: 3;
+widows: 3;
+}
+h2,
+h3,
+h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1.4em;
+}
+h5,
+h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol,
+ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol,
+li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, "Lucida Console", Consolas, monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code {
+white-space: pre-wrap;
+}
+span.smallcaps {
+font-variant: small-caps;
+}
+div.columns {
+display: flex;
+gap: min(4vw, 1.5em);
+}
+div.column {
+flex: auto;
+overflow-x: auto;
+}
+div.hanging-indent {
+margin-left: 1.5em;
+text-indent: -1.5em;
+}
+ul.task-list {
+list-style: none;
+}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math {
+display: block;
+text-align: center;
+margin: 0.5rem auto;
+}
+</style>
+  <meta name="description" content="Zane Schaffer&#39;s Lovely Indescribable Information and Tasty Site" />
+  <link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;↔&lt;/text&gt;&lt;/svg&gt;" rel="icon" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -43,20 +415,15 @@
 </header>
 <blockquote>
 <p>This site contains notes, information, blog posts, and other tidbits
-about my life. You may contact me via <a
-href="mailto:znschaffer@gmail.com">email</a> or any social media
-platform you see fit. You may also view my CV <a
-href="https://store.znschaffer.com/docs/cv.pdf">here</a>.</p>
+about my life. You may contact me via <a href="mailto:znschaffer@gmail.com">email</a> or any social media
+platform you see fit. You may also view my CV <a href="https://store.znschaffer.com/docs/cv.pdf">here</a>.</p>
 </blockquote>
 <h2 id="life-facts">Life Facts!</h2>
 <ul>
 <li><p>I have been writing and producing and living off of my music for
-most of my adult life. You can learn more about my musical endeavours <a
-href="./music">here</a>.</p></li>
-<li><p>I was born in Seattle, grew up in Bellevue, and have <a
-href="./travels">lived in many places</a>!</p></li>
-<li><p>I am currently a computer science student at <a
-href="https://northseattle.edu">North Seattle College</a></p></li>
+most of my adult life. You can learn more about my musical endeavours <a href="./music">here</a>.</p></li>
+<li><p>I was born in Seattle, grew up in Bellevue, and have <a href="./travels">lived in many places</a>!</p></li>
+<li><p>I am currently a computer science student at <a href="https://northseattle.edu">North Seattle College</a></p></li>
 <li><p>I enjoy working on <a href="./projects">projects</a> and learning
 new skills.</p></li>
 <li><p>My partner, <a href="https://xinrui.work">Xinrui</a>, a fellow
@@ -64,8 +431,7 @@ creative turned tech-worker, shares a small, but cozy, space with me and
 our cat Cleo in Capitol Hill</p></li>
 </ul>
 <h2 id="whats-going-on-now">Whats Going On Now?</h2>
-<p>Currently, I live on Capitol Hill, Seattle, Washington<a href="#fn1"
-class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
+<p>Currently, I live on Capitol Hill, Seattle, Washington<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
 with Xinrui and our cat Cleo. I spend a lot of time learning about
 programming language design, studying higher level math and calculus,
 researching self-hosted projects, and making noises on my synths.</p>
@@ -78,14 +444,12 @@ everything in computer science but enough is enough! Through this
 process, I have discovered an odd, but intriguing appreciation for
 mathematics I did not possess before. Luckily, audio programming and
 it’s related domains expect you to be fascinated with mathematics.</p>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
-role="doc-endnotes">
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr />
 <ol>
 <li id="fn1"><p>There seems to be a split between those who consider it
 to be living ‘on’ or ‘in’ Capitol Hill. I prefer on, as to acknowledge
-the greater calf strength I now possess.<a href="#fnref1"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+the greater calf strength I now possess.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside>
 </body>
