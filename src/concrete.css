@@ -21,7 +21,7 @@ body {
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
-  font-family: "Optima";
+  font-family: "Libre Baskerville";
 }
 @media (max-width: 600px) {
   body {
