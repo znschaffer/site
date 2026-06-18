@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Cordata"; 
+  src: url('./Px437_Cordata_PPC-400.woff2') format('woff2');
+}
+* { 
+  image-rendering: pixelated;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-color: cadetblue gainsboro;
+}
+body {
+  max-width: 900px;
+  filter: drop-shadow(1px 1px 4px #9A9A9A);
+  background-color: #dffafa;
+  font-family: 'Cordata';
+  color: #333;
+  font-size: 16px;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+}
+
+::selection { color: white;	background: #b03a0f; }
+
+h1, h2 {
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+    .posters-outline {
+          border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACpUlEQVR4AeyX0U0DQQxED5qhMnqgBHqgMqoBKR+IfXvsaLAvXMggJcqc7bHv3cokj1v+WgkEaCvObQvQAG0m0Gx3+Al9en37cF7N97ep3t39DgfaPfDZ/QK0+QkF6NmAqh31/vL84LyUH+9f5averKe/q3NCXWIiP0AFIDccoC4xkW8DfXp9G75XujuKO4va9XPzVT/GBb8pbAOdHHJhIBCgA466CNA6w8FBAuVO4c5inJr51MM0O0L5MU7NftQqn/GdEYdLEuiQHSEJBKhE5CUEqMdLZk9AuTPcncN8NYGbr+Zz/dR8bnwC6hokfyQQoCOPsgrQMsLR4FpAx66G4k6kNqx2U+mndjTjND09UA58dh2gzU8oQI8G2r1Tmuc9vV1OaPMjCtAAbSbQbJcTGqDNBJrtckIDtJlAs508oX/4vbT5Vvft+NvcvV+6SqAsiF4TCNA1HzsaoDaydYEE2r1j1uPcflQCvf1bvO4dBGgz7wAN0BqBo/8n5ITWns9UHaATktqFAK3xm6onoEfvmGmC3gvSzf2tTh6qwQRUFSS+JhCgaz52NEBtZOuCAF3zsaMBaiNbFwTomo8dDVAb2brg7oF2fy+9e6Dr8+ZHA9RntqwI0CUePzgB7d4p7kjub2fXfye/9dIEtNX9Ds0CtPmhB+itA+WOpFY7nPkuD9ZTq/6Ms39OKIkUdYAWAbI8QEmkqCVQ7gx356h811/lsx8166lVvuItgSqDxEcCATryKKsALSMcDWyg7s5R+WpnMU5Nf6VZT836EdeX+vGDDfRHpwQuBAL0gqHvLUD7WF6cykC5c7iTqJlPfZnq2xvj1PRXmvXU31r/6mMZ6K+6/uOiAG1+uAF6dqDcSdTN82/0V7q7P/1yQkmkqAO0CJDlAUoiRf0JAAD//xE2jyEAAAAGSURBVAMARU7w5aRwlOEAAAAASUVORK5CYII=') 28 /  28px / 0 round;
+              border-width:  28px;
+                  border-style:  solid; 
+                    }
+                      
+
+.outline {
+  border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACD0lEQVR4AezX0W6DMAyFYbb3f+eNcFEFq07w4VCV9p/KVBr7NP2wkPhd+LMKAGrlXBZAATULmOOYUEDNAuY4JhRQs4A5jgkF1CxgjmNCATULmOOUCTVv4bPiADVfT0ABNQuY414xoX/rnivHWl56VbJbbSm8WvwK0Oqebl0PqPnyAXoD0Haf6o+fdc+Vo+898r6S3Wpj5ro934sJ9VluSYBuDL5/gPostyQHaLwntftUf7Qvqhx975H3lexWGzPj/luNfDhA5S//xEZAzVcVUEDNAuY4JhRQs4A5jgkF1CxgjmNCATULmOOY0DcEverZ2PxTH3Hx2T3u/1GovGFCFbVBD6ADHGUJUEVt0APoAEdZAlRRG/QAOsBRlgBV1AY9gA5wlCVAFbVBD6ADHGUJUEVt0OMAvfTZeLD3Z0tHPovP7nH/RzLSGgdoGv6NC4CarzqggJoFzHFMKKBmAXMcEwqoWcAcx4QCahYwxzGhbwjqfjaOz9az8ypJzIv7r+bt6pnQHcf5E0DPG+4SAN1xnD+5AjTek+I9a3Ye+2fns7y4HvPOK3YJV4B28d/3FlDzNQf0hqDxnjU7r/7EWV5cr+aX6pnQEte8GNC5UakC0BLXvBjQudGzivQzQFMabQFQzS3tAjSl0RYA1dzSLkBTGm0BUM0t7QI0pdEWANXc0i5AUxptAVDNLe0CNKXRFv4BAAD//6E3hnoAAAAGSURBVAMAnGpwqYSBGT4AAAAASUVORK5CYII=') 28 /  28px / 0 round;
+  border-width:  28px;
+
+  border-style:  solid; 
+}
+
+
+.b {
+  border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAACJElEQVR4Ae2bwU0sQRBDF0QGpEF8BEF8pEEMcPccLGPvMoMet1JXeapfV1vN1+d24wcCEIAABH5L4Om3hVete3t9/056//z6iBg9J+LkegIA9YyiDIBGuHyy9QfnOanHaEuP1k/71f5cPROqJ1zGAC0BajlAlUgZv2h96hlXz9f9tzET2hKUeoAKkDYEaEtQ6g/v0NQTRe+m9bru3nGar/Gj9dN+mVA9sTIGaAlQywGqRMp47qFlPw8vV09OPVMbZkKVSBkDtASo5QBVImV8+F1ePWTtMWW/py9nQsdHBFCAjgmM5Q7vUKf/3z213R9X3k1QuA7QEJhLB6gjFK7HHqr6reeo3tnidH9M6PgEAQrQMYGxHBMK0DGBsRwTCtAxgbFc/A5N32Xjfu8u1+6PKz8+IoACdExgLGc9tPWUcb9zufX+uPLjIwIoQMcExnJMKEDHBMZyTChAxwTGcvYdqt9bv9tU/6/jdn9c+fEJAhSgYwJjudhD9fut56je2eJ0f1z58QkCFKBjAmO5w/+xH+tfXi79mwOu/PjIAQrQMYGxXOyh6bvM9at6mq8epusuvre+fp8rr0TKGKAlQC0HqBIpY+uh6kFrT3N66ffvne94M6GOULgO0BCYSweoIxSu238PTT1Jv9/WOz1dd56s+Rprv7ru9JlQJVbGAC0BajlAlUgZWw9Vfecxmu88R/OvHjOh4xMEKEDHBJCDAAQgAIHTEPgBYeexLyRqUugAAAAASUVORK5CYII=') 28 /  28px / 0 round;
+  border-width:  28px;
+  border-style:  solid; 
+  padding: 1rem;
+}
+
+.photos {
+  padding: 16px;
+}
+.photos figure img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 15px;
+
+}
+
+figure {
+  width: fit-content;
+  padding: 5px 5px 2px 5px;
+  position: relative;
+}
+
+figure:hover figcaption, figure:focus figcaption { z-index: 3; }
+
+.photos figure figcaption {
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  bottom: 40px;
+  right: 25px;
+  background: honeydew;
+  padding: 2px 4px;
+}
