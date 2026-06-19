@@ -9,6 +9,9 @@
   padding: 0;
   scrollbar-color: cadetblue gainsboro;
 }
+html {
+  margin: auto;
+}
 body {
   max-width: 900px;
   filter: drop-shadow(1px 1px 4px #9A9A9A);
@@ -16,10 +19,11 @@ body {
   font-family: 'Cordata';
   color: #333;
   font-size: 16px;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto;
-  margin-top: 100px;
   display: flex;
+  min-height: 100vh;
+  align-items: center;
 }
 
 ::selection { color: white;	background: #b03a0f; }
